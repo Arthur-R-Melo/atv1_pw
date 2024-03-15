@@ -14,23 +14,13 @@
             font-size: 25px;
         }
 
-        .parag {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 20px;
-            font-size: 20px;
-            text-align: justify;
-            text-indent: 5ch;
-        }
-
         li {
             font-family: Arial, Helvetica, sans-serif;
             margin: 20px;
+            margin-right: 500px;
             font-size: 20px;
             text-align: justify;
-        }
 
-        .icone {
-            height: 20px;
         }
     </style>
 </head>
@@ -49,33 +39,50 @@
     <div><!--Informações Gerais do Programa-->
         <h2><u>O Problema e o Público Alvo</u></h2>
 
-        <p class="parag">A garagem do campus IFMG Ouro Branco possui um grande problema: todos os professores possuem um
-            controle para abri-la. Isso gera uma série de problematicas como o inconveniente de disponibilizar diversos
-            controles e a possibilidade de um usuário fechar a garagem enquanto outra pessoa está passando por ela. Com
-            isso em mente, foi pensada uma solução: utilizar uma câmera que indentificasse os carros
-            por sua placa e, caso cadastrado no sistema, abrir o portão. O sistema também contará com travas de
-            segurança para impedir que o portão se feche enquanto outra pessoa passa por ele.</p>
+        <p class="parag">A situação na garagem do campus IFMG Ouro Branco tem se mostrado um desafio persistente.
+            Atualmente, cada professor possui um controle para acessá-la, o que tem levado a uma série de inconvenientes
+            e problemas de segurança. A necessidade de distribuir múltiplos controles é incômoda e propícia a erros,
+            como o risco de um usuário fechar o portão enquanto outro ainda está passando por ele. Diante desse cenário,
+            uma solução inovadora foi concebida: a implementação de um sistema baseado em reconhecimento de placas
+            veiculares por meio de câmeras. Com essa abordagem, os usuários não precisariam mais carregar consigo
+            controles físicos, eliminando assim a necessidade de distribuição e manutenção desses dispositivos. Além
+            disso, essa solução oferece um nível adicional de segurança e conveniência ao abrir automaticamente o portão
+            apenas para os veículos cadastrados no sistema.</p>
+        <p class="parag">Para evitar possíveis incidentes, o sistema contará com travas de segurança que impedirão o
+            fechamento do portão enquanto houver alguém passando por ele. Isso garantirá a integridade física dos
+            usuários e mitigará qualquer risco de acidentes causados pelo fechamento prematuro do acesso.
+
+            Essa proposta não apenas resolve os problemas atuais da garagem, mas também representa um avanço
+            significativo em termos de tecnologia e segurança para a comunidade do campus IFMG Ouro Branco. Com essa
+            solução, espera-se não só melhorar a experiência dos usuários, mas também promover um ambiente mais seguro e
+            eficiente para todos os envolvidos.</p>
 
         <h2><u>Métodos e Tecnologias</u></h2>
 
-        <p class="parag">Para a implementação da solução serão utilizados os seguintes métodos e tecnologias: </p>
+        <p class="parag">Para a implementação da solução serão utilizados
+            os seguintes métodos e tecnologias: </p>
         <div style="margin-left: 50px;">
             <ul style="list-style: square;">
                 <li> <img class="icone" src="fotos/rede_neural.png">
-                    <u>Rede Neural</u <br>
+                    <u><a class="link" href="https://www.ibm.com/br-pt/topics/neural-networks" target=_blank>Rede
+                            Neural</a></u> <br>
                     Será utilizada uma rede neural para indentificar as placas de
                     veículos presentes na imagem retirada da câmera.
                 </li>
-                <li> <img class="icone" src="fotos/python.png"> <u>Python</u> <br>
-                    Como a rede neural é programada em Python, este será usado durante a codificação.</p>
+                <li> <img class="icone" src="fotos/python.png"> <u><a class="link" href="https://www.python.org/"
+                            target=_blank>Python</u><a></u> <br>
+                        Como a rede neural é programada em Python, este será usado durante a codificação.</p>
                 </li>
-                <li> <img class="icone" src="fotos/html.png"> <u>Tecnologias para Desenvolvimento Web</u> <br>
+                <li> <img class="icone" src="fotos/html.png"> <u><a class="link"
+                            href="https://en.wikipedia.org/wiki/HTML5" target=_blank>Tecnologias para Desenvolvimento
+                            Web</a></u> <br>
                     Deverá ser desenvolvido um site para divulgação do projeto e para cadastrar novas
                     placas,
                     além de poder ser usado para deixar o portão forçadamente aberto.</p>
                 </li>
-                <li> <img class="icone" src="fotos/banco.png"> <u>Banco de Dados</u><br>
-                    Para armazenar as placas cadastradas e outros dados se fará necessário um banco dedados.
+                <li> <img class="icone" src="fotos/banco.png"> <u><a class="link" href="https://www.php.net/"
+                            target=_blank>Banco de Dados</a></u><br>
+                    Para armazenar as placas cadastradas e outros dados se fará necessário um banco de dados.
                 </li>
                 </p>
                 <li> <img class="icone" src="fotos/outros.png"> <u>Outras tecnologias</u><br>
